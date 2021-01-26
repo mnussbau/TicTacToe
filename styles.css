@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Yusei+Magic&display=swap');
+.header-text {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 35pt;
+}
+h2 {
+    font-family: cursive;
+    font-size: medium;
+    
+}
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    
+    
+
+}
+.cell {
+    font-family: 'Rock Salt', cursive;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    cursor: pointer;
+
+
+}
+.top-left-corner {
+    border-top-left-radius: 5px;
+
+}
+.top-right-corner {
+    border-top-right-radius: 5px;
+}
+.bottom-left-corner {
+    border-bottom-left-radius: 5px;
+}
+.bottom-right-corner {
+    border-bottom-right-radius: 5px;
+}
+.lbl-header {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+section {
+    text-align: center;
+}

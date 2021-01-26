@@ -1,0 +1,15 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "fun twist on the classic game",
+  "main": "index.HTML",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tic-tac-toe"
+  },
+  "author": "Malka Z",
+  "license": "ISC"
+}
